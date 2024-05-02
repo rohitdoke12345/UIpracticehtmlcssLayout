@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-lnc {
+    width: 100%;
+    min-height: 60px;
+    background-color: lightgray;
+
+}
+
+.main-lnc .div {
+    width: 32%;
+    min-height: 60px;
+    /* background-color: goldenrod; */
+    float: left;
+    /* border: 2px solid black; */
+    /* box-shadow: 5px 5px 4px black; */
+    margin-top: 10px;
+
+}
+
+.main-lnc .div h1 {
+    padding-left: 20px;
+}
+.main-lnc .div h1
+{
+  font-style: normal;
+  box-shadow: 5px;
+  margin-left: 15px;
+}
+
+
+.main-lnc .div a {
+    text-decoration: none;
+    font-family: cursive;
+    padding: 10px;
+    font-size: 15px;
+    margin: auto;
+}
+
+.main-lnc .div a:hover {
+    background-color: rgb(203, 203, 64);
+}
+
+.slider {
+    width: 100%;
+    min-height: 300px;
+}
+
+.slider img {
+    width: 100%;
+    min-height: 300px;
+}
+
+.product-div {
+    width: 100%;
+    min-height: 200px;
+    /* border: 1px dotted; */
+    /* background-color: pink; */
+    margin-top: 10px;
+}
+
+.product-div .product {
+    width: 32%;
+    min-height: 300px;
+    float: left;
+    border: 2px solid black;
+}
+
+.product-div .product:nth-child(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.product-div .product .picture img {
+    width: 100%;
+}
+
+.product-div .product .content h3 {
+    color: brown;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+.product-div .product .content p {
+    font-size: 15px;
+    font-style: oblique;
+    color: darkred;
+    text-align: center;
+}
+
+.information {
+    width: 100%;
+    min-height: auto;
+    /* background-color: lightseagreen; */
+
+}
+
+.information h2 {
+    font-style: italic;
+    
+}
+
+.information p {
+    font-style: inherit;
+    font-size: 20px;
+    text-align: justify;
+}
+.footer h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}

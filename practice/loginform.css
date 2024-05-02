@@ -1,0 +1,111 @@
+body 
+{
+    background-color:  lightgoldenrodyellow;
+}
+.box
+{
+    width: 600px;
+    height: 400px;
+    border: 6px solid #000;
+    border-radius: 20px;
+    border-top-color: brown;
+    border-bottom-color: chocolate;
+    border-left: 0;
+    border-right: 0;
+    margin: 100px auto;
+    background-color: lightseagreen;
+    
+}
+.box h2
+{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ h2:hover
+{
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: transparent;
+}
+.form-coontrols
+{
+    width: 400px;
+    /* border: 1px solid #000; */
+    margin: auto;
+    height: auto;
+}
+input[type=text]
+{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background-color: #f1f1f1;
+    /* background-image: url(imgs/pass1.png); */
+    background-position: 10px 10px ;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 16px;
+    /* border: none;
+    border-bottom: 2px solid black;   */
+    border: none;
+    border-bottom: 5px solid black;
+    outline: none;
+    margin-left: 5px;
+}
+input[type=password]
+{
+width: 100%;
+padding: 10px;
+margin: 5px 0 22px 0;
+/* border: none; */
+background-color: #f1f1f1;
+/* border-radius: 10px; */
+/* background-image: url(imgs/pass1.png); */
+background-position: 10px 10px;
+background-repeat: no-repeat;
+padding-left: 40px;
+font-size: 16px;
+border: none;
+border-bottom: 5px solid black;
+outline: none;
+}
+label
+{
+width: 100%;
+font-size: 16px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif; 
+color: white;
+margin-left: 20px;
+}
+input[type=text]::placeholder
+{
+font-size: 13px;
+font-weight: bold;
+}
+input[type=password]::placeholder
+{
+font-size: 13px;
+font-weight: bold;
+}
+input[type=submit]
+{
+background-color: #003E77;
+color: white;
+padding: 16px 32px;
+font-size: 18px;
+font-weight: bold;
+width: 90%;
+border: none;
+cursor: pointer;
+border-radius: 20px;
+margin: 15px;
+}
+input[type=submit]:hover
+{
+background-color: #EE145B;
+color: white;
+}

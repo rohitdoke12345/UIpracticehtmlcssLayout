@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /* @keyframes example {
+      from {background-color: red;}
+        to {background-color: yellow;}
+            } */
+
+     @keyframes example {
+     0% {background-color: red;}
+     25% {background-color: yellow;}
+    50% {background-color: blue;}
+    100% {background-color: green;}
+}
+div {
+width: 300px;
+height: 300px;
+margin: 100px auto;
+background-color: red;
+animation-name: example;
+ animation-duration:4s;
+ /* animation-delay: 2s; */
+ position:relative;
+ /* animation-iteration-count:3; */
+ border-radius: 20px;
+ animation-timing-function: ease-in-out;
+ transition:width 2s ,height 4s;
+ transition-timing-function: ease;
+}
+div button
+{
+    background-color: lightblue;
+    margin-left: 100px;
+    margin-top: 120px;
+    padding:20px;
+}
+div:hover
+{
+    width: 400px;
+    height: 400px;
+}
+
+    </style>
+</head>
+<body>
+   <div>
+    <button>press me</button>
+   </div>
+</body>
+</html>

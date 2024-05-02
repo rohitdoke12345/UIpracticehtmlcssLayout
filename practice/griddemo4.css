@@ -1,0 +1,72 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.wrapper
+{
+    width: 80%;
+    min-height: 100px;
+    margin: 10px auto;
+    border: 1px solid #000;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px 300px 250px 100px ;
+    grid-template-areas: "one one "
+                        " two three"
+                        " four five"
+                        "six seven"
+                        "eight eight";
+}
+.one
+{
+    background-image: linear-gradient(45deg, #EECDA3, #EF629F);
+    color: white;
+    grid-area: one;
+}
+.two
+{
+    background-image: linear-gradient(45deg, #73C8A9, #373B44);
+    color: white;
+    grid-area: two;
+}
+.three
+{
+    background-image: linear-gradient(45deg, #360033, #0b8793);
+    color: white;
+    grid-area: three;
+    
+}
+.four
+{
+    background-image: linear-gradient(45deg, #ffa17f, #00223e);
+    color: white;
+    grid-area: four;
+}
+.five
+{
+    background-image: linear-gradient(45deg, #c779d0, #4bc0c8,#feac5e);
+    color: white;
+    grid-area: five;
+}
+.six
+{
+    background-image: linear-gradient(45deg, #FEAC5E, #C779D0,#4BC0C8);
+    color: white;
+    grid-area: six;
+}
+.seven
+{
+    background-image: linear-gradient(45deg, #833ab4, #fd1d1d,#4BC0C8);
+    color: white;
+    grid-area: seven;
+}
+.eight
+{
+    background-image: linear-gradient(45deg, #00bf8f, #001510);
+    color: white;
+    grid-area: eight;
+}
